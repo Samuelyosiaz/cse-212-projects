@@ -61,7 +61,7 @@ public class PermutationsChooseTests
 
     [TestMethod]
     public void PermutationsChoose_2()
-    {
+    { 
         var results = new List<string>();
         Recursion.PermutationsChoose(results, "ABCD", 2);
 
